@@ -55,24 +55,24 @@ Navigate to your EC2 instances and select New_App and connect to the Session man
 <img src="https://i.imgur.com/SJbsROC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-: <br/>
-<img src="https://i.imgur.com/90G2qYc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+view the available storage in the EC2 Instance, create a file system on the EBS volume, and make and mount a new directory for the volume. After that create a text file and view the results: <br/>
+<img src="https://i.imgur.com/txuVDSG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select an image:  <br/>
-<img src="https://i.imgur.com/hKkeRtn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Modify the volume with new information:  <br/>
+<img src="https://i.imgur.com/OEOBKVz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Run the container:  <br/>
-<img src="https://i.imgur.com/bCQtv3Y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+List the block devices, view the storage, and resize the file system. Then confirm the change.:  <br/>
+<img src="https://i.imgur.com/lxnLMq3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-BONUS! Look at the process in which the image was created:  <br/>
-<img src="https://i.imgur.com/xPYrvD9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Modify the App Logs volume:  <br/>
+<img src="https://i.imgur.com/N49Qjqo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Run the web server through localhost:  <br/>
-<img src="https://i.imgur.com/JRuTrfF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Configure the volume settings:  <br/>
+<img src="https://i.imgur.com/koM9iHX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
