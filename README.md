@@ -46,6 +46,34 @@ Configure the attach volume settings:  <br/>
 <img src="https://i.imgur.com/SqvLL5P.png" height="80%" width="80%" alt="Load-Balancer"/>
 <br />
 <br />
+<p align="center">
+Check the state of the volume and confirm it's "in use": <br/>
+<img src="https://i.imgur.com/sLCjOgA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Navigate to your EC2 instances and select New_App and connect to the Session manager:  <br/>
+<img src="https://i.imgur.com/SJbsROC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+: <br/>
+<img src="https://i.imgur.com/90G2qYc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Select an image:  <br/>
+<img src="https://i.imgur.com/hKkeRtn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Run the container:  <br/>
+<img src="https://i.imgur.com/bCQtv3Y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+BONUS! Look at the process in which the image was created:  <br/>
+<img src="https://i.imgur.com/xPYrvD9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Run the web server through localhost:  <br/>
+<img src="https://i.imgur.com/JRuTrfF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
 <!--
  ```diff
