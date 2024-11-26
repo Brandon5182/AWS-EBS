@@ -26,7 +26,7 @@ Let's start by navigating to the EC2 Dashboard: <br/>
 <img src="https://i.imgur.com/l8lAjdx.png" height="80%" width="80%" alt="Load-Balancer"/>
 <br />
 <br />
-After that, click "Volumes" on the left side of the taskbar and view the existing volumes. Take note of the AZ that the volumes are current in. From there create a new volume.  <br/>
+After that, click "Volumes" on the left side of the taskbar and view the existing volumes. Take note of the AZ that the volumes are current in. From there create a new volume:  <br/>
 <img src="https://i.imgur.com/MXizzPu.png" height="80%" width="80%" alt="Load-Balancer"/>
 <br />
 <br />
@@ -63,7 +63,7 @@ Modify the volume with new information:  <br/>
 <img src="https://i.imgur.com/OEOBKVz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-List the block devices, view the storage, and resize the file system. Then confirm the change.:  <br/>
+List the block devices, view the storage, and resize the file system. Then confirm the change:  <br/>
 <img src="https://i.imgur.com/lxnLMq3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -73,6 +73,32 @@ Modify the App Logs volume:  <br/>
 <br />
 Configure the volume settings:  <br/>
 <img src="https://i.imgur.com/koM9iHX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p align="center">
+Create a snapshot: <br/>
+<img src="https://i.imgur.com/WbmjOoz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Configure the snapshot settings:  <br/>
+<img src="https://i.imgur.com/pPrMykf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Check the status: <br/>
+<img src="https://i.imgur.com/4hUuNcx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Create a new volume for the snapshot:  <br/>
+<img src="https://i.imgur.com/HId6i3a.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Attach the volume:  <br/>
+<img src="https://i.imgur.com/pgJPEwn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Create a directory, and mount the volume. From there list the block devices and resize the file system:  <br/>
+<img src="https://i.imgur.com/QCmVMuk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 </p>
 
 <!--
